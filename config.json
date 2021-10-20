@@ -1,0 +1,16 @@
+{
+  "config": {
+    "dev": {
+      "OpenWeather": {
+        "APIKey": "",
+        "APIEndpoint": "https://dev-api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
+      }
+    },
+    "prod": {
+        "OpenWeather": {
+          "APIKey": "",
+          "APIEndpoint": "https://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
+        }
+    }
+  }
+}
